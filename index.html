@@ -6,10 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="bootstrap5/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/estilo.css" rel="stylesheet">
 </head>
 <body>
     <h1> Hello Bootstrap</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table table-striped table-hover"> 
+                    <thead>
+                        <tr>
+                            <th>PRODUTO</th>
+                            <th>PREÇO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Mouse</td>
+                            <td>R$39,99</td>
+                        </tr>
+                        <tr>
+                            <td>Teclado</td>
+                            <td>R$ 29,90</td>
+                        </tr>
+                        <tr>
+                            <td> Fone</td>
+                            <td>R$79,99</td>
+                        </tr>
+                    </tbody>
+                </table>            
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <!-- AQUI VEM O FORMULÁRIO-->
+                <form>
+                    <label class="form-label">Nome:</label>
+                    <input type="text" class="form-control">
+                    <label class="form-label">Email:</label>
+                    <input type="email" class="form-control">
+                    <br>
+                    <button class="btn btn-primary btn-lg">Salvar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="imagens/argentina.jpg" class="img-fluid rounded">
+
     <script src="bootstrap5/bootstrap.bundle.min.js"></script>
     
 </body>
